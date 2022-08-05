@@ -1,6 +1,6 @@
 import React from "react";
 
-const PlanIcon = ({ fill = "#00A1C9", stroke = "#00A1C9", args }) => {
+const PlanIcon = ({ fill = "#6c757d", stroke = "#6c757d", args }) => {
   return (
     <svg
       width='19'

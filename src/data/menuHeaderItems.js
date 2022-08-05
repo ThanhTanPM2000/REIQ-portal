@@ -7,37 +7,43 @@ import {
   ContactIcon,
 } from "../components/Icons";
 
-const menuHeader = [
+const menuHeaderItems = [
   {
+    key: "1",
     icon: HomeIcon,
     path: "/",
-    title: "Home",
+    label: "Home",
   },
   {
+    key: "2",
     icon: LookUpIcon,
     path: "/",
-    title: "Off Market Leads",
+    label: "Off Market Leads",
   },
   {
+    key: "3",
     icon: SupportIcon,
     path: "/",
-    title: "Support",
+    label: "Support",
   },
   {
+    key: "4",
     icon: ContactIcon,
     path: "/",
-    title: "Contact Us",
+    label: "Contact Us",
   },
   {
+    key: "5",
     icon: PlanIcon,
     path: "/",
-    title: "Plans & Pricing",
+    label: "Plans & Pricing",
   },
   {
+    key: "6",
     icon: QuestionIcon,
     path: "/",
-    title: "FAQ",
+    label: "FAQ",
   },
 ];
 
-export default menuHeader;
+export default menuHeaderItems;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const LookUpIcon = ({ fill = "#00A1C9", stroke = "#00A1C9" }) => {
+const LookUpIcon = ({ fill = "#6c757d", stroke = "#6c757d" }) => {
   return (
     <svg
       width='16'

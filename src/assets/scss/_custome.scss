@@ -1,0 +1,12 @@
+$blue: #123963;
+$cyan: #0dcaf0;
+
+// Custome Color
+$primary: $blue;
+$secondary: $cyan;
+
+// Text
+$font-family-sans-serif: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+
+// Import Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

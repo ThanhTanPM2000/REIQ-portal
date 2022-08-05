@@ -6,14 +6,14 @@ import { LogoIcon } from "../../components/Icons";
 const Login = () => {
   return (
     <>
-      <div className='Login flex flex-jc-c flex-ai-c'>
-        <div className='wrap-login flex flex-dir-c flex-ai-c'>
-          <div className='login-logo'>
-            <LogoIcon />
-          </div>
-          <div className='login-card'>
-            <div className='login-form'>
-              <h1 className='txt-c mt-5'>
+      <div className='Login container-fuild d-flex flex-column  justify-content-center align-items-center vh-100'>
+        <div className='mb-3 bg-primary p-2'>
+          <LogoIcon />
+        </div>
+        <div className='card'>
+          <div class='card-body row justify-content-center align-items-strech'>
+            <div className='login-form col col-md-6 gap-1  d-flex flex-column '>
+              <h1 className='text-center'>
                 Welcome back! <br /> Sign in
               </h1>
               <Form>
@@ -28,34 +28,28 @@ const Login = () => {
                   />
                 </Form.Item>
               </Form>
-              <a className='text-muted small' href='/'>
+              <a className='link-dark' href='/'>
                 Forgot your password?
               </a>
-              <Button
-                size='large'
-                className='Login-button btn-primary'
-                type='primary'
-                shape='round'>
+              <br />
+              <button
+                className='login-btn btn btn-primary text-center align-self-center'
+                type='primary'>
                 Login
-              </Button>
+              </button>
               <p className='text-muted small mt-4 txt-c'>
                 By logging in, you agree to our{" "}
-                <a className='txt-fade' href='/'>
+                <a className='link-dark' href='/'>
                   terms of use{" "}
                 </a>
                 and{" "}
-                <a className='txt-fade' href='/'>
+                <a className='link-dark' href='/'>
                   privacy policy
                 </a>
               </p>
             </div>
-            <div className='login-pic'>
-              {/* <img
-                src={require("../../assets/images/contactUs.png")}
-                className='App-logo'
-                alt='logo'
-              /> */}
-            </div>
+            {/* <img src='/images/contactUs.png' alt='' /> */}
+            <div className='col-md-6 login-pic'></div>
           </div>
         </div>
       </div>

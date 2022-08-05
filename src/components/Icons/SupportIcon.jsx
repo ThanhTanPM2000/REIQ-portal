@@ -1,6 +1,6 @@
 import React from "react";
 
-const SupportIcon = ({ fill = "#00A1C9", stroke = "#00A1C9" }) => {
+const SupportIcon = ({ fill = "#6c757d", stroke = "#6c757d" }) => {
   return (
     <svg
       width='15'

@@ -1,0 +1,5 @@
+@use "./adminNavbar";
+
+.sidebar {
+  @extend .drawer;
+}
