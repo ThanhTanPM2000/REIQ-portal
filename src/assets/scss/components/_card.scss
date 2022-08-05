@@ -1,0 +1,15 @@
+@use "../utils/" as u;
+
+.card {
+  padding: u.rem(10);
+  background-color: u.$white-bg;
+  border-radius: u.$border-radius;
+  margin-bottom: 1rem;
+  width: min(100% - u.rem(20));
+  margin-inline: auto;
+
+  &-contrast {
+    box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.2),
+      2px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+}

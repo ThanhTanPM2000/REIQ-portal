@@ -1,0 +1,170 @@
+@use "../utils" as u;
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"), url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Segoe UI Bold";
+  src: local("Segoe UI Bold"),
+    url(../fonts/Segoe-UI-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"), url(../fonts/Segoe-UI.ttf) format("truetype");
+}
+
+body,
+input,
+div,
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+.alert,
+a,
+.td-name,
+td,
+button.close {
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: u.$font-weight-normal;
+}
+
+input,
+.small {
+  font-size: min(u.rem(11), u.rem(12));
+}
+
+a {
+  line-height: 1;
+  border-bottom: 1px solid u.$dark-gray;
+}
+
+p,
+div {
+  margin-top: 0;
+  font-size: min(u.rem(11), u.rem(16));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  font-weight: u.$font-weight-bold;
+}
+
+h1,
+.h1 {
+  // font-size: u.$font-size-h1;
+  font-size: clamp(1.8rem, 2.5vw, u.$font-size-h1);
+}
+h2,
+.h2 {
+  font-size: u.$font-size-h2;
+}
+h3,
+.h3 {
+  font-size: u.$font-size-h3;
+  margin: 20px 0 10px;
+}
+h4,
+.h4 {
+  font-size: u.$font-size-h4;
+  line-height: 30px;
+}
+h5,
+.h5 {
+  font-size: u.$font-size-h5;
+  margin-bottom: 15px;
+}
+h6,
+.h6 {
+  font-size: u.$font-size-h6;
+  font-weight: u.$font-weight-bold;
+  text-transform: uppercase;
+}
+p {
+  font-size: u.$font-paragraph;
+  line-height: u.$line-height-general;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  color: u.$dark-gray;
+  font-weight: u.$font-weight-light;
+  line-height: u.$line-height-general;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h1 .small,
+h2 .small,
+h3 .small {
+  font-size: 60%;
+}
+
+.text-muted {
+  color: #9a9a9a;
+}
+.text-primary,
+.text-primary:hover {
+  color: #1d62f0 !important;
+}
+.text-info,
+.text-info:hover {
+  color: u.$info-color !important;
+}
+.text-success,
+.text-success:hover {
+  color: u.$success-color !important;
+}
+.text-warning,
+.text-warning:hover {
+  color: u.$warning-color !important;
+}
+.text-danger,
+.text-danger:hover {
+  color: u.$danger-color !important;
+}

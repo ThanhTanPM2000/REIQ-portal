@@ -1,0 +1,91 @@
+@use "./functions" as f;
+
+$border-radius-small: 3px !default;
+$border-radius-base: 4px !default;
+$border-radius-large: 6px !default;
+$border-radius-extreme: 10px !default;
+
+$border-radius-large-top: $border-radius-large $border-radius-large 0 0 !default;
+$border-radius-large-bottom: 0 0 $border-radius-large $border-radius-large !default;
+
+$btn-round-radius: 30px !default;
+
+$none: 0 !default;
+$border-thin: 1px !default;
+$border-thick: 2px !default;
+
+$border-radius: 8px;
+
+$border-radius-small: 3px !default;
+$border-radius-base: 4px !default;
+$border-radius-large: 6px !default;
+$border-radius-extreme: 10px !default;
+
+$btn-round-radius: 30px !default;
+
+$bg-color: #015a90;
+$text-color: #ffffff;
+
+$white-color: #ffffff !default;
+$white-bg: #ffffff !default;
+
+$smoke-bg: #f5f5f5 !default;
+
+$black-bg: rgba(30, 30, 30, 0.97) !default;
+
+$black-color: #333333 !default;
+$black-hr: #444444 !default;
+
+$light-gray: #e3e3e3 !default;
+$medium-gray: #dddddd !default;
+$medium-dark-gray: #aaaaaa !default;
+$dark-gray: #9a9a9a !default;
+
+$transparent-bg: transparent !default;
+
+$active-color: #00a1c9 !important;
+
+$default-color: #888888 !default;
+$default-bg: #888888 !default;
+$default-states-color: #777777 !default;
+
+$primary-color: #3472f7 !default;
+$primary-bg: #123963 !default;
+$primary-states-color: #1d62f0 !default;
+
+$success-color: #87cb16 !default;
+$success-bg: #87cb16 !default;
+$success-states-color: #049f0c !default;
+
+$info-color: #1dc7ea !default;
+$info-bg: #1dc7ea !default;
+$info-states-color: lighten($info-color, 8%) !default;
+
+$warning-color: #ff9500 !default;
+$warning-bg: #ff9500 !default;
+$warning-states-color: #ed8d00 !default;
+
+$danger-color: #ff4a55 !default;
+$danger-bg: #ff4a55 !default;
+$danger-states-color: #ee2d20 !default;
+
+$link-disabled-color: #666666 !default;
+
+$font-size-h1: f.rem(40) !default;
+$font-size-h2: f.rem(32) !default;
+$font-size-h3: f.rem(24) !default;
+$font-size-h4: f.rem(20) !default;
+$font-size-h5: f.rem(14) !default;
+$font-size-h6: f.rem(12) !default;
+$font-paragraph: f.rem(16) !default;
+$font-size-navbar: f.rem(16) !default;
+$font-size-small: f.rem(12) !default;
+
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi: 500 !default;
+$font-weight-bold: 700 !important;
+
+$line-height-general: 1.5 !default;
+$line-height: f.rem(48.76) !default;
+$line-height-lg: f.rem(54) !default;

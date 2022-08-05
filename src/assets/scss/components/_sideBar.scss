@@ -1,0 +1,12 @@
+@use "../utils/" as u;
+@forward "./adminNavbar";
+
+.sidebar {
+  height: 100vh;
+
+  @include u.breakpoint(medium) {
+    margin-right: 24px;
+  }
+
+  @extend .drawer;
+}

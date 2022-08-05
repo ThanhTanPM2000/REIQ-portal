@@ -1,0 +1,27 @@
+import React from "react";
+
+const ContactIcon = ({ fill = "#00A1C9", stroke = "#00A1C9" }) => {
+  return (
+    <svg
+      width='21'
+      height='19'
+      viewBox='0 0 21 19'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'>
+      <path
+        d='M7.46699 18.3456L6.0798 12.2139L1 8.51031L17.1764 4.91761L7.46699 18.3456ZM2.45653 8.81439L6.6262 11.8547L7.76505 16.8878L15.7354 5.86509L2.45653 8.81439Z'
+        fill={fill}
+        stroke={stroke}
+        stroke-linejoin='round'
+      />
+      <path
+        d='M16.2878 5.13573L6.18494 11.7787L6.52141 12.2904L16.6243 5.64745L16.2878 5.13573Z'
+        fill={fill}
+        stroke={stroke}
+        stroke-linejoin='round'
+      />
+    </svg>
+  );
+};
+
+export default ContactIcon;

@@ -1,0 +1,21 @@
+@use "../utils/" as u;
+
+.txt-c {
+  text-align: center;
+}
+
+.txt-fade {
+  color: #999999;
+  // font-size: clamp(f.rem(8), f.rem(2) + 2vw, f.rem(10));
+  font-weight: 400;
+  font-size: min(u.rem(10));
+  a {
+    font-size: min(u.rem(11));
+    border-bottom: 1px solid #999999;
+  }
+}
+
+// generating margin to css bundle
+@each $item in u.$rules {
+  @include u.generateMargin(nth($item, 1), nth($item, 2));
+}
