@@ -3,7 +3,7 @@
     text-decoration: underline;
   }
 
-  .login-form {
+  .div__form {
     padding: 40px;
   }
 
@@ -18,13 +18,13 @@
     }
   }
 
-  .login-btn {
+  .btn__login {
     border-radius: 20px;
     width: calc(100% - 20vh);
   }
 
-  .login-pic {
-    background-image: url("/images/contactUs.png");
+  .div__picture {
+    background-image: url("/images/png/services.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
